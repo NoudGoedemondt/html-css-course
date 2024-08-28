@@ -1,0 +1,86 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #c5dac1, #7f95d1);
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 70vw;
+  margin: 2rem auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 2px 2px 2px #00000020;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.card p {
+  margin: 1rem 0;
+}
+
+.card a {
+  display: inline-block;
+  color: #ffffff;
+  box-shadow: 0 5px 0 #000000;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  transition: background-color 0.2s ease-out;
+  user-select: none;
+  text-decoration: none;
+}
+
+#link1 {
+  background-color: #6e2594;
+}
+
+#link1:hover {
+  background-color: #541d73;
+}
+
+#link1:active {
+  background-color: #541d7350;
+  box-shadow: none;
+}
+
+#link2 {
+  background-color: #55868c;
+}
+
+#link2:hover {
+  background-color: #43666a;
+}
+
+#link2:active {
+  background-color: #43666a50;
+  box-shadow: none;
+}
+
+#link3 {
+  background-color: #345511;
+}
+
+#link3:hover {
+  background-color: #263d0d;
+}
+
+#link3:active {
+  background-color: #263d0d50;
+  box-shadow: none;
+}
+
+.card img {
+  border-radius: 12px;
+}
