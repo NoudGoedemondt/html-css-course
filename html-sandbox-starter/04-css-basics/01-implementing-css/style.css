@@ -1,6 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(to bottom right, #c5dac1, #7f95d1);
+  min-height: 100vh;
 }
 
 h2,
@@ -9,7 +10,7 @@ p {
 }
 
 .container {
-  max-width: 70vw;
+  max-width: 960px;
   margin: 2rem auto;
 }
 
@@ -37,7 +38,7 @@ p {
   cursor: pointer;
   border-radius: 12px;
   padding: 1rem 1.5rem;
-  transition: background-color 0.2s ease-out;
+  transition: all 0.2s ease-out;
   user-select: none;
   text-decoration: none;
 }
