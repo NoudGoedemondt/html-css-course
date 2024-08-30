@@ -1,3 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
+  background: no-repeat linear-gradient(90deg, #fcf5c7, #adf7b6);
+  height: 100vh;
+}
+
+.container {
+  max-width: 720px;
+  margin: 20px auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #fff;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.card h1,
+.card p {
+  margin: 1rem 0;
+}
+
+.card a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--link-color);
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+}
+
+.card img {
+  height: 150px;
+  width: auto;
+}
+
+.sporty {
+  --link-color: #e44c5b;
+}
+
+.casual {
+  --link-color: #0e4ca4;
+}
+
+.formal {
+  --link-color: #4b2016;
 }
