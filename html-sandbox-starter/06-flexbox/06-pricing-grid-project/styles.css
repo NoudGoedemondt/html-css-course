@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8fafe;
+  height: 100vh;
+}
+.container {
+  margin: 100px auto;
+}
+.pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.card {
+  background-color: #fff;
+  color: #27264b;
+  padding: 0.5rem;
+  width: 300px;
+  height: 650px;
+}
+.card-free h2,
+.card-pro h2,
+.card-enterprise h2 {
+  text-align: center;
+  border-radius: 4px;
+  font-weight: 400;
+  padding: 0.75rem;
+}
+.card-free h2 {
+  background-color: #f8fafe;
+}
+.card-pro h2 {
+  background: linear-gradient(90deg, #c1cbfe, #b375fe);
+  color: #fff;
+}
+.card-enterprise h2 {
+  background: linear-gradient(90deg, #ffb1c0, #ffca72);
+  color: #fff;
+}
+.card p {
+  text-align: center;
+}
+.price {
+  font-size: 46px;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+.price sup,
+.price span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.price-info {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.main-text {
+  margin-bottom: 3rem;
+}
+.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #27264b;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px #27264b solid;
+  border-radius: 4px;
+  padding: 1rem 0;
+  margin: 3rem 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+.btn:hover {
+  background-color: #27264b;
+  color: #fff;
+}
+.card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin-left: 1rem;
+}
+ul li:before {
+  content: '✓';
+  font-weight: bolder;
+  color: #79ba81;
+  margin-right: 1rem;
+}
