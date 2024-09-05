@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2e2e2e;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  overflow: hidden;
+  margin: 0 5px;
+  transition: all 0.5s;
+  filter: grayscale(1) blur(1px);
+}
+.item:hover {
+  width: 500px;
+  filter: grayscale(0) blur(0);
+}
