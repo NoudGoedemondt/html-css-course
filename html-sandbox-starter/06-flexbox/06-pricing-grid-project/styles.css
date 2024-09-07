@@ -8,7 +8,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f8fafe;
-  height: 100vh;
+  min-height: 100vh;
 }
 .container {
   margin: 100px auto;
@@ -27,9 +27,16 @@ body {
   width: 300px;
   height: 650px;
 }
-.card-free h2,
-.card-pro h2,
-.card-enterprise h2 {
+.card-free {
+  box-shadow: 0 7px 5px #27264b30;
+}
+.card-pro {
+  box-shadow: 0 7px 5px #b375fe30;
+}
+.card-enterprise {
+  box-shadow: 0 7px 5px #ffca7230;
+}
+.card h2 {
   text-align: center;
   border-radius: 4px;
   font-weight: 400;
@@ -78,7 +85,7 @@ body {
   border-radius: 4px;
   padding: 1rem 0;
   margin: 3rem 1rem;
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .btn:hover {
   background-color: #27264b;
